@@ -1,0 +1,70 @@
+.dome-container {
+  min-width: 1024px;
+  min-height: 100%;
+  background: #FFFFFF;
+}
+.method-text {
+  background-color: #417095;
+  padding-left: 10px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.dome-container p {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.dome-container .label-code-div-first {
+  background: #fff;
+  height: auto;
+  margin-left: 82px;
+  margin-right: 80px;
+  margin-bottom: 15px;
+}
+.base-form-model .el-row {
+  margin-bottom: 20px;
+}
+.yt-table {
+  border-collapse: collapse;
+  table-layout: auto;
+}
+.label-code-div-first table {
+  width: 100%;
+}
+.yt-thead th {
+  padding: 4px;
+  vertical-align: middle;
+  border-top: none !important;
+  height: 22px;
+  background: #475c6d;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid #DDDDDD;
+}
+.the-inner tr th {
+  height: 27px;
+  border: 1px solid #DFE6F3 !important;
+  background: #F3F3F3;
+  color: #333;
+}
+.yt-tbody tr {
+  border: 1px solid #DFE6F3;
+  cursor: pointer;
+}
+.yt-tbody td {
+  border: 1px solid #DFE6F3;
+  padding: 10px 4px;
+  vertical-align: middle;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+.label-code-div-first tr td {
+  text-align: left;
+}

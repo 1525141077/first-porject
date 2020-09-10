@@ -1,0 +1,432 @@
+html,
+body {
+  height: 100%;
+}
+
+.yt-dome-container {
+  min-width: 1024px;
+  min-height: 97%;
+  background: #FFFFFF;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+xmp,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f3f3f3;
+  color: #333;
+  font-size: 14px;
+  font-family: Microsoft YaHei, Verdana, Arial, Helvetica, sans-serif;
+}
+
+td,
+th,
+caption {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2080bf;
+  text-decoration: underline;
+}
+
+img,
+tr,
+td {
+  border: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+  font: 14px Microsoft YaHei, Verdana, Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+
+select::-ms-expand {
+  display: none;
+}
+
+
+/*隐藏ie输入框自带x样式*/
+
+::-ms-clear {
+  display: none;
+}
+
+
+/*隐藏ie输入框密码自带小眼睛查看样式*/
+
+::-ms-reveal {
+  display: none;
+}
+
+
+/*placeholder 字体颜色*/
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999;
+}
+
+/*滚动条样式*/
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 6px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  background: #97C7ED;
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  background: #c8c8c8;
+}
+
+.heard-logo-img {
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.yt-header-index {
+  background-color: #475c6d;
+  color: #bfc6d7;
+}
+
+#mainDiv {
+  background: #ffffff;
+  /* height: 100%; */
+  border: 1px solid #DFE6F3;
+}
+
+.yt-main {
+  padding: 5px;
+  background: #f3f3f3;
+}
+
+.yt-header {
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+  height: auto !important;
+}
+
+.el-main {
+  padding: 5px;
+  background: #f3f3f3;
+  height: calc(100% - 10px);
+  ;
+}
+
+/* ::-webkit-scrollbar-track {
+  background: #c8c8c8
+} */
+
+/*按钮*/
+.el-button--primary {
+  background: #417095;
+}
+
+.el-button {
+  padding: 0px 10px;
+  line-height: 25px;
+}
+
+.el-button--info {
+  background: #d6e6f3;
+  border: 1px solid #d6e6f3;
+  color: #666;
+}
+
+.el-button.is-circle {
+  line-height: 0px;
+}
+
+.el-button.is-round {
+  line-height: 1;
+}
+
+.el-button--primary:focus {
+  background: #417095;
+}
+
+/* 单选按钮 */
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #DCDFE6;
+  background: #FFF;
+}
+
+.el-radio__inner {
+  width: 20px;
+  height: 20px;
+}
+
+.el-radio__inner::after {
+  width: 10px;
+  height: 10px;
+  background-color: #417095;
+}
+
+/* 输入框 */
+.el-input__inner {
+  padding: 0 4px;
+}
+
+/* 表头 */
+.el-table th {
+  padding: 4px;
+  background: #475c6d;
+  color: #fff;
+  /* border: 1px solid #D6E6F3; */
+}
+
+.el-table th>.cell {
+  font-weight: normal;
+  text-align: center;
+}
+
+.el-main {
+  padding: 5px;
+  background: #f3f3f3
+}
+
+/* ::-webkit-scrollbar-track {
+  background: #c8c8c8
+} */
+
+/* 弹出框 */
+.el-dialog__header {
+  background-color: #417095;
+  padding: 0px 20px 0px;
+}
+
+.el-dialog__title {
+  line-height: 40px;
+  color: #FFF;
+  font-size: 16px;
+}
+
+.el-dialog__headerbtn {
+  top: 10px;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #FFF;
+}
+
+.el-dialog {
+  border-radius: 6px;
+}
+
+.el-dialog__body {
+  padding: 20px 20px;
+}
+
+.el-dialog__body .el-form-item {
+  margin-bottom: 17px;
+}
+
+/* 分页 */
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #417095;
+}
+
+.el-pagination {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E5E5;
+}
+
+.el-select-dropdown__item.selected {
+  color: #417095;
+}
+
+.yt-aside .yt-topage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.el-form-item__label {
+  padding: 0;
+}
+
+/* .el-form-item__label {
+  padding: 11px 12px 11px 0;
+  line-height: 1 !important;
+} */
+
+.yt-bottom-btn {
+  margin-right: 30px;
+  height: 35px;
+  font-size: 16px;
+}
+
+/* 一级标题 */
+.yt-first-title {
+  position: relative;
+  height: 27px;
+  line-height: 25px;
+}
+
+.yt-first-title-model {
+  padding: 20px 10px;
+}
+
+.icon-base-title {
+  height: 29px;
+  width: 26px;
+  float: left;
+  background: url(../../images/common/form-icons.png) no-repeat -11px -10px;
+}
+
+.top-line {
+  border-bottom: 1px solid #417095;
+  margin-left: 13px;
+  margin-bottom: 5px;
+}
+
+/* 二级标题 */
+
+.yt-sec-title {
+  padding-top: 10px;
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.yt-sec-title-line {
+  border-left: 5px solid #244972;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.yt-sec-title-text {
+  margin-left: 10px;
+  color: #003465;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* tab页 */
+
+.el-tabs--border-card>.el-tabs__content {
+  padding: 0px;
+}
+
+/* 附件 */
+.el-upload {
+  text-align: left;
+}
+
+.el-upload-list--picture-card .el-upload-list__item-name {
+  display: block;
+}
